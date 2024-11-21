@@ -14,7 +14,7 @@ class PessoaSerializer(serializers.ModelSerializer):
             'cidade',
             'uf'
         )
-class ContatoSerializr(serializers.ModelSerializer):
+class ContatoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contato
         fields =(
